@@ -6,8 +6,6 @@ import Logo from '../app/public/images/logo.png';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-
-
   return (
     <nav className="bg-white-600 p-4">
       <div className="container mx-auto flex items-center justify-between">
