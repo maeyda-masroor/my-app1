@@ -1,4 +1,16 @@
+"use client"
+import Confetti from 'react-confetti';
+import React, { useState } from 'react';
 export default function Career(){
+    const [showConfetti, setShowConfetti] = useState(false);
+  
+    const handleClick = () => {
+      setShowConfetti(true);
+      // Hide the confetti after a duration (e.g., 2 seconds)
+      setTimeout(() => {
+        setShowConfetti(false);
+      }, 5000);
+    };
     return (
         <div className="flex items-center justify-center p-12">
     
@@ -135,7 +147,8 @@ export default function Career(){
             </div>
 
             <div>
-                <button
+            {showConfetti && <Confetti />}
+                <button   onClick={handleClick}
                     className="hover:shadow-form w-full rounded-md bg-[#FF0000] py-3 px-8 text-center text-base font-semibold text-white outline-none">
                     Book Appointment
                 </button>
