@@ -2,9 +2,9 @@ const IntroductionSection = () => {
     return (
       <div className="container mx-auto p-8">
         {/* Introduction */}
-        <h1 className="text-3xl font-bold text-center mb-8">Welcome to Our Organization</h1>
+        <h1 className="text-3xl font-bold text-center mb-8">About Noor Foundation</h1>
         <p className="text-lg text-center mb-12">
-          We are dedicated to making a difference in our community through our innovative solutions and passionate team.
+        The NOOR education and Health Care Foundation has been developed to improve access and opportunity for all children of front line health workers, to education, health and wellbeing.NOOR education and Health Care Foundation believes in the equal opportunities for all children irrespective of their circumstances
         </p>
   
         {/* Goals, Vision, and Mission */}
