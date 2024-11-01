@@ -12,8 +12,77 @@ export default function Career(){
       }, 5000);
     };
     return (
-        <div className="flex items-center justify-center p-12">
-    
+        
+        <div className="flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 p-4">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start p-6 bg-red-100 rounded-lg shadow-lg max-w-lg mx-auto">
+        
+        <div className="text-indigo-500 mb-4 sm:mb-0 sm:mr-4">
+        1
+        </div>
+
+        <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
+            <img src="https://via.placeholder.com/80" alt="Image" className="w-20 h-20 rounded-full"/>
+        </div>
+
+        <div className="text-center sm:text-left">
+            <h3 className="text-lg font-semibold text-gray-800">job title</h3>
+            <p className="text-gray-600">job deascription</p>
+        </div>
+        </div>
+<br/>
+<div className="flex flex-col sm:flex-row items-center sm:items-start p-6 bg-red-100 rounded-lg shadow-lg max-w-lg mx-auto">
+        
+            <div className="text-indigo-500 mb-4 sm:mb-0 sm:mr-4">
+            1
+            </div>
+
+            <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
+                <img src="https://via.placeholder.com/80" alt="Image" className="w-20 h-20 rounded-full"/>
+            </div>
+
+            <div className="text-center sm:text-left">
+                <h3 className="text-lg font-semibold text-gray-800">job title</h3>
+                <p className="text-gray-600">job description </p>
+            </div>
+            </div>
+<br/>
+<div className="flex flex-col sm:flex-row items-center sm:items-start p-6 bg-red-100 rounded-lg shadow-lg max-w-lg mx-auto">
+        
+            <div className="text-indigo-500 mb-4 sm:mb-0 sm:mr-4">
+            1
+            </div>
+
+            <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
+                <img src="https://via.placeholder.com/80" alt="Image" className="w-20 h-20 rounded-full"/>
+            </div>
+
+            <div className="text-center sm:text-left">
+                <h3 className="text-lg font-semibold text-gray-800">job title</h3>
+                <p className="text-gray-600">job description 
+</p>
+            </div>
+            </div>
+<br/>
+<div className="flex flex-col sm:flex-row items-center sm:items-start p-6 bg-red-100 rounded-lg shadow-lg max-w-lg mx-auto">
+        
+            <div className="text-indigo-500 mb-4 sm:mb-0 sm:mr-4">
+            1
+            </div>
+
+            <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
+                <img src="https://via.placeholder.com/80" alt="Image" className="w-20 h-20 rounded-full"/>
+            </div>
+
+            <div className="text-center sm:text-left">
+                <h3 className="text-lg font-semibold text-gray-800">Job Title</h3>
+                <p className="text-gray-600">job description  
+</p>
+            </div>
+            </div>
+
+        </div>
+        <div className="w-full md:w-1/2  p-4">
             <div className="mx-auto w-full max-w-[550px] bg-white">
             <form>
                 <div className="mb-5">
@@ -155,6 +224,9 @@ export default function Career(){
             </div>
         </form>
         </div>
+        </div>
+        
+
         </div>
 
     )

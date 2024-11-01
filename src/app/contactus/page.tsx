@@ -67,13 +67,13 @@ export default function Contactus(){
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold ">
-                    Technical support
+                  NORTH NAZIMABAD، D-9, BLOCK-I, Block I North Nazimabad Town, Karachi, Karachi City, Sindh 74700
                   </p>
                   <p className="text-sm text-neutral-500">
-                    example@gmail.com
+                    coming soon..
                   </p>
                   <p className="text-sm text-neutral-500">
-                    1-600-890-4567
+                    coming soon
                   </p>
                 </div>
               </div>
@@ -94,8 +94,7 @@ export default function Contactus(){
                     Address
                   </p>
                   <p className="text-sm text-neutral-500">
-                    abcd, <br/>
-                        xyz <br/>
+                  NORTH NAZIMABAD، D-9, BLOCK-I, Block I North Nazimabad Town, Karachi, Karachi City, Sindh 74700
                   </p>
                 </div>
               </div>
@@ -118,7 +117,7 @@ export default function Contactus(){
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold ">Land Line</p>
-                  <p className="text-neutral-500"> (0421) 431 2030
+                  <p className="text-neutral-500"> coming soon
                   </p>
                 </div>
               </div>
@@ -136,7 +135,7 @@ export default function Contactus(){
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold ">Mobile</p>
-                  <p className="text-neutral-500"> +91 123456789
+                  <p className="text-neutral-500">coming soon
                   </p>
                 </div>
               </div>
