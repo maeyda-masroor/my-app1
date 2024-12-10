@@ -6,7 +6,7 @@ const IntroductionSection = () => {
         <p className="text-lg text-center mb-12">
         The NOOR education and Health Care Foundation has been developed to improve access and opportunity for all children of front line health workers, to education, health and wellbeing.NOOR education and Health Care Foundation believes in the equal opportunities for all children irrespective of their circumstances
         </p>
-  
+  xx
         {/* Goals, Vision, and Mission */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {/* Goal Section */}
